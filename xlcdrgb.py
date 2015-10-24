@@ -7,7 +7,6 @@ from colour import Color
 class xLcdRgb(object):
 
     def __init__(self):
-
         self.lcdrgb = lcd.Jhd1313m1(1, 0x3E, 0x62)
 
     def __del__(self):
@@ -31,5 +30,13 @@ class xLcdRgb(object):
 
     def setText(self, text):
         self.lcdrgb.write(text)
+
+if __name__ == "__main__":
+
+    xlr = xLcdRgb()
+    while True:
+        xlr.setCursor(0,0)
+        xlr.setText("Hello Lcd Rgb!") 
+        xlr.setColor("Red")
 
 # End of Text

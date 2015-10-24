@@ -39,4 +39,9 @@ class xCamera(object):
 
         status, output = commands.getstatusoutput(self.fswebcamcommand)
 
+if __name__ == "__main__":
+
+        xc = xCamera()
+        xc.capture()
+
 # End of File

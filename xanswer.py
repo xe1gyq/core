@@ -3,15 +3,19 @@
 import time
 import pyupm_buzzer as upmBuzzer
 
-def xanswer(valid):
+def xanswer(bus, valid):
 
-    buzzer = upmBuzzer.Buzzer(5)
+    buzzer = upmBuzzer.Buzzer(bus)
 
     if valid:
-        print buzzer.playSound(upmBuzzer.DO, 100000)
+        print buzzer.playSound(upmBuzzer.DO, 1)
         time.sleep(.2)
-        print buzzer.playSound(upmBuzzer.DO, 100000)        
+        print buzzer.playSound(upmBuzzer.DO, 1)        
     else:
-        print buzzer.playSound(upmBuzzer.DO, 1000000)
+        print buzzer.playSound(upmBuzzer.DO, 1)
+
+if __name__ == "__main__":
+
+    xanswer(5, False)
 
 # End of File
