@@ -23,4 +23,8 @@ def xtweet(status, media):
     else:
         twythonid.update_status(status=status)
 
+if __name__ == "__main__":
+
+    xtweet("#TheIoTLearningInitiative Testing Time", None)
+
 # End of File
