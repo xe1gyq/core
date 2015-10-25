@@ -19,15 +19,17 @@ class xWolfram(object):
 
     def question(self, question):
         self.setup()
-        res = self.client.query(question)
-        string = re.sub('[^0-9a-zA-Z]+', ' ', next(res.results).text)
-        return string
+        try:
+            res = self.client.query(question)
+            string = re.sub('[^0-9a-zA-Z]+', ' ', next(res.results).text)
+            return string
+        except StopIteration:
+            return 'There was no response!'
 
 if __name__ == "__main__":
 
     xw = xWolfram()
     ourquestion = "What is the capital of Mexico"
-    print ourquestion
     print xw.question(ourquestion)
 
 # End of File

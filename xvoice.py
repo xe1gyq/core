@@ -13,6 +13,9 @@ class xVoice(object):
     def filenameset(self, filename):
         self.filename = filename
 
+    def filenameget(self, filename):
+        return self.filename
+
     def recordstart(self):
         args = ['arecord', '-D', 'plughw:1,0', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.filename]
         #args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.filename]

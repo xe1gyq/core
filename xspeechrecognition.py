@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import ConfigParser
+import json
 import re
 import speech_recognition as sr
 
@@ -8,34 +9,34 @@ from os import path
 
 class xSpeechRecognition(object):
 
-    def __init__(self):
-        pass
+    def __init__(self, engine='google', wavfile='output/xvoice.wav'):
+        self.engine = engine
+        self.wavfile = wavfile
     
     def setup(self):
-        self.conf = ConfigParser.ConfigParser()
-        self.path = "configuration/credentials.config"
-        self.conf.read(self.path)
-        appid=self.conf.get("wolfram", "appid")
-
-        WAV_FILE = "output/xvoice.wav"
         self.r = sr.Recognizer()
-        with sr.WavFile(WAV_FILE) as self.source:
+        with sr.WavFile(self.wavfile) as self.source:
             self.audio = self.r.record(self.source)
+
+    def fileset(self, wavfile):
+        self.wavfile = wavfile
 
     def recognize(self):
         self.setup()
-        try:
-            from pprint import pprint
-            print("Google Speech Recognition results:")
-            pprint(self.r.recognize_google(self.audio, show_all=True))
-        except sr.UnknownValueError:
-            print("Google Speech Recognition could not understand audio")
-        except sr.RequestError as e:
-            print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        if self.engine == 'google':
+            try:
+                from pprint import pprint
+                print("Google Speech Recognition results:")
+                return self.r.recognize_google(self.audio, show_all=False)
+            except sr.UnknownValueError:
+                print("Google Speech Recognition could not understand audio")
+            except sr.RequestError as e:
+                print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        return None
 
 if __name__ == "__main__":
 
     xs = xSpeechRecognition()
-    xs.recognize()
+    print xs.recognize()
 
 # End of File
