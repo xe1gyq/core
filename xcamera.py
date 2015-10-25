@@ -15,6 +15,9 @@ class xCamera(object):
     def __del__(self):
         pass
 
+    def filepath(self):
+        return self.picturepygame
+
     def setup(self):
         try:
 
