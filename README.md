@@ -52,5 +52,13 @@ Set a specific color in the display and show a specific text
 
 [PlotLy Homepage](https://plot.ly/)
 
+    from core.xplotly import 
+    xpl = xPlotLy("Core PlotLy")
+    xpl.setup()
+    counter = 0
+    while True:
+        xpl.graph(counter, counter+1)
+        counter += 1
+        time.sleep(0.25)
 
 
