@@ -16,6 +16,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 ## Function xanswer
 
-> Allows 
+Allows 
 
 ## Class xCamera
