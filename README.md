@@ -22,6 +22,8 @@ Usage
 
 Allows to beep for True (2 tones) or False (1 tone)
 
+Usage
+
     xanswer(5, False)
 
 ## Class xCamera
