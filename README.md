@@ -46,3 +46,5 @@ Set a specific color in the display and show a specific text
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
 
+
+
