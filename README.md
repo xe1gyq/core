@@ -15,6 +15,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 
 
+    voicerss.sh en-us "Hello World"
+    voicerss.sh en-us "Hello World"
+
+
 ## Function xanswer
 
 Allows to beep for True (2 tones) or False (1 tone)
