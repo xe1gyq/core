@@ -36,6 +36,7 @@ Take a picture from connected Camera through USB
 
 ## Class xLcdRgb
 
+    from corfe.xlcdrgb import xLcdRgb
     xlr = xLcdRgb()
     while True:
         xlr.setCursor(0,0)
