@@ -16,7 +16,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 ## Function xanswer
 
-Allows to beep in 2 tones: True or False
+Allows to beep for True (2 tones) or False (1 tone)
 
 ## Class xCamera
 
