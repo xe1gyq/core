@@ -29,4 +29,5 @@ Allows to beep for True (2 tones) or False (1 tone)
 Take a picture from connected Camera through USB
 
     # Usage
-    
+    xc = xCamera()
+    xc.capture()
