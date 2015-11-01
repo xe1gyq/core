@@ -29,7 +29,7 @@ Allows to beep for True (2 tones) or False (1 tone)
 
 Take a picture from connected Camera through USB
 
-    # Usage
+    # Usage, Python
     from core.xcamera import xCamera
     xc = xCamera()
     xc.capture()
