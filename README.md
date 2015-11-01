@@ -3,6 +3,8 @@ Core
 
 ## svoicerss.sh
 
+Uses VoiceRSS service through Mashape to 
+
 > Voice RSS provides free text-to-speech (TTS) online service and free TTS API with very fast and simple integration.
 
 (VoiceRSS Homepage)[http://www.voicerss.org/]
@@ -11,5 +13,5 @@ Core
 
 (Mashape Homepage)[https://www.mashape.com/]
 
-Uses VoiceRSS service through Mashape to 
+
 
