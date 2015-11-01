@@ -7,7 +7,9 @@ Core
 
 (VoiceRSS Homepage)[http://www.voicerss.org/]
 
-> 
+> Hundreds of thousands of developers rely on Mashape products for deliverying better APIs and Microservices.
+
+
 
 Uses VoiceRSS service through Mashape to 
 
