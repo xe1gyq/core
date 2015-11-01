@@ -42,4 +42,4 @@ Take a picture from connected Camera through USB
         xlr.setCursor(0,0)
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
-    
+
