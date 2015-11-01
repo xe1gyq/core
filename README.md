@@ -34,3 +34,11 @@ Take a picture from connected Camera through USB
     xc = xCamera()
     xc.capture()
 
+## Class xLcdRgb
+
+    xlr = xLcdRgb()
+    while True:
+        xlr.setCursor(0,0)
+        xlr.setText("Hello Lcd Rgb!")
+        xlr.setColor("Red")
+    
