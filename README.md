@@ -13,7 +13,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Mashape Homepage](https://www.mashape.com/)
 
-
     voicerss.sh en-us "Hello World!"
     voicerss.sh es-mx "Hola Mundo!"
 
