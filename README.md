@@ -13,7 +13,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Mashape Homepage](https://www.mashape.com/)
 
-    # Usage in Shell
+    # Usage, Shell
     voicerss.sh en-us "Hello World!"
     voicerss.sh es-mx "Hola Mundo!"
 
@@ -21,7 +21,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 Allows to beep for True (2 tones) or False (1 tone)
 
-    # Usage in Pyton
+    # Usage, Pyton
     from core.xanswer import xanswer
     xanswer(5, False)
 
