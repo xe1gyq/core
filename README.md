@@ -31,3 +31,4 @@ Take a picture from connected Camera through USB
     # Usage
     xc = xCamera()
     xc.capture()
+    
