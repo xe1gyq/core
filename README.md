@@ -41,6 +41,7 @@ Set a specific color in the display and show a specific text
     from core.xlcdrgb import xLcdRgb
     xlr = xLcdRgb()
     while True:
+        xlr.clear()
         xlr.setCursor(0,0)
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
