@@ -36,6 +36,8 @@ Take a picture from connected Camera through USB
 
 ## Class xLcdRgb
 
+Set a specific color in the display and show a specific text
+
     from core.xlcdrgb import xLcdRgb
     xlr = xLcdRgb()
     while True:
