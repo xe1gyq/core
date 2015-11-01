@@ -1,7 +1,7 @@
 Core
 ==
 
-## svoicerss.sh
+## Script svoicerss.sh
 
 Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
