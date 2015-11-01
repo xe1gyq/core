@@ -46,13 +46,13 @@ Set a specific color in the display and show a specific text
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
 
-## Class xPlotly
+## Class xPlotLy
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
 
 [PlotLy Homepage](https://plot.ly/)
 
-    from core.xplotly import 
+    from core.xplotly import xPlotLy
     xpl = xPlotLy("Core PlotLy")
     xpl.setup()
     counter = 0
