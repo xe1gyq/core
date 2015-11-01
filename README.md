@@ -21,7 +21,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 Allows to beep for True (2 tones) or False (1 tone)
 
-    # Usage
+    # Usage in Pyton
     from core.xanswer import xanswer
     xanswer(5, False)
 
