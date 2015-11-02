@@ -75,3 +75,5 @@ Set a specific color in the display and show a specific text
 
 [Twitter Homepage](https://twitter.com/)
 
+    # Usage
+    
