@@ -78,4 +78,6 @@ Set a specific color in the display and show a specific text
     # Usage
     from core.xtweet import xtweet
     xtweet("#TheIoTLearningInitiative Testing Time", None)
-    
+
+## Class xWolfram
+
