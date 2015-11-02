@@ -38,8 +38,6 @@ Take a picture from connected Camera through USB
 
 > A liquid-crystal display (LCD) is a flat panel display, electronic visual display, or video display that uses the light modulating properties of liquid crystals. Liquid crystals do not emit light directly. [Wikipedia](https://en.wikipedia.org/wiki/Liquid-crystal_display)
 
-
-
 Set a specific color in the display and show a specific text
 
     from core.xlcdrgb import xLcdRgb
