@@ -71,4 +71,6 @@ Set a specific color in the display and show a specific text
 
 ## Function xtweet
 
-> 
+> Twitter (/ˈtwɪtər/) is an online social networking service that enables users to send and read short 140-character messages called "tweets". [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
+
+[Twitter Homepage](https://twitter.com/)
