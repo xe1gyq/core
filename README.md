@@ -105,6 +105,7 @@ Allows to beep for True (2 tones) or False (1 tone)
 ## Class xVoice
 
     # Usage
+    from core.xvoice import xVoice
     xv = xVoice()
     xv.record()
     xv.play()
