@@ -97,7 +97,6 @@ Allows to beep for True (2 tones) or False (1 tone)
 
 ### Class xSpeechRecognition
 
-
     if __name__ == "__main__":
     xs = xSpeechRecognition()
     print xs.recognize()
