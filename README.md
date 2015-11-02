@@ -69,3 +69,4 @@ Set a specific color in the display and show a specific text
         time.sleep(0.25)
 
 
+## Function xtweet
