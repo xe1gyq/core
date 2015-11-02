@@ -15,7 +15,8 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
     # Usage, Shell
     from core.xtalk import xtalk
-    xtalk("en-us", "hi")
+    xtalk("en-us", "hello world!")
+    xtalk("es-mx", "hola mundo")
 
 ## Function xanswer
 
