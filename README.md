@@ -1,7 +1,7 @@
 Core
 ==
 
-## Function xtalk.sh
+## Function xtalk
 
 Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
