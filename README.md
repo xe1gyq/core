@@ -1,7 +1,7 @@
 Core
 ==
 
-## Main
+## Primary
 
 ## Class xCamera
 
