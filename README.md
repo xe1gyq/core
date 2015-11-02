@@ -1,23 +1,6 @@
 Core
 ==
 
-## Function xtalk
-
-Uses VoiceRSS service through Mashape to enable Text To Speech Service
-
-> Voice RSS provides free text-to-speech (TTS) online service and free TTS API with very fast and simple integration.
-
-[VoiceRSS Homepage](http://www.voicerss.org/)
-
-> Hundreds of thousands of developers rely on Mashape products for deliverying better APIs and Microservices.
-
-[Mashape Homepage](https://www.mashape.com/)
-
-    # Usage
-    from core.xtalk import xtalk
-    xtalk("en-us", "hello world!")
-    xtalk("es-mx", "hola mundo")
-
 ## Function xanswer
 
 Allows to beep for True (2 tones) or False (1 tone)
@@ -67,6 +50,23 @@ Set a specific color in the display and show a specific text
         xpl.graph(counter, counter+1)
         counter += 1
         time.sleep(0.25)
+
+## Function xtalk
+
+Uses VoiceRSS service through Mashape to enable Text To Speech Service
+
+> Voice RSS provides free text-to-speech (TTS) online service and free TTS API with very fast and simple integration.
+
+[VoiceRSS Homepage](http://www.voicerss.org/)
+
+> Hundreds of thousands of developers rely on Mashape products for deliverying better APIs and Microservices.
+
+[Mashape Homepage](https://www.mashape.com/)
+
+    # Usage
+    from core.xtalk import xtalk
+    xtalk("en-us", "hello world!")
+    xtalk("es-mx", "hola mundo")
 
 
 ## Function xtweet
