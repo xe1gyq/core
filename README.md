@@ -1,13 +1,7 @@
 Core
 ==
 
-## Function xanswer
-
-Allows to beep for True (2 tones) or False (1 tone)
-
-    # Usage
-    from core.xanswer import xanswer
-    xanswer(5, False)
+## Main
 
 ## Class xCamera
 
