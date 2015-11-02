@@ -98,6 +98,7 @@ Allows to beep for True (2 tones) or False (1 tone)
 ### Class xSpeechRecognition
 
     # Usage
+    from core.xspeechrecognition import xSpeechRecognition
     xs = xSpeechRecognition()
     print xs.recognize()
 
