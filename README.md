@@ -103,3 +103,7 @@ Allows to beep for True (2 tones) or False (1 tone)
     print xs.recognize()
 
 ## Class xVoice
+
+    xv = xVoice()
+    xv.record()
+    xv.play()
