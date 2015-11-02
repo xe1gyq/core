@@ -13,7 +13,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Mashape Homepage](https://www.mashape.com/)
 
-    # Usage, Shell
+    # Usage
     from core.xtalk import xtalk
     xtalk("en-us", "hello world!")
     xtalk("es-mx", "hola mundo")
@@ -22,7 +22,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 Allows to beep for True (2 tones) or False (1 tone)
 
-    # Usage, Pyton
+    # Usage
     from core.xanswer import xanswer
     xanswer(5, False)
 
@@ -30,7 +30,7 @@ Allows to beep for True (2 tones) or False (1 tone)
 
 Take a picture from connected Camera through USB
 
-    # Usage, Python
+    # Usage
     from core.xcamera import xCamera
     xc = xCamera()
     xc.capture()
