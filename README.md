@@ -3,7 +3,7 @@ Core
 
 ## Primary
 
-## Class xCamera
+### Class xCamera
 
 Take a picture from connected Camera through USB
 
@@ -12,7 +12,7 @@ Take a picture from connected Camera through USB
     xc = xCamera()
     xc.capture()
 
-## Class xLcdRgb
+### Class xLcdRgb
 
 > The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model)
 
@@ -29,7 +29,7 @@ Set a specific color in the display and show a specific text
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
 
-## Class xPlotLy
+### Class xPlotLy
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Plotly)
 
@@ -45,7 +45,7 @@ Set a specific color in the display and show a specific text
         counter += 1
         time.sleep(0.25)
 
-## Function xtalk
+### Function xtalk
 
 Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
@@ -63,7 +63,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     xtalk("es-mx", "hola mundo")
 
 
-## Function xtweet
+### Function xtweet
 
 > Twitter (/ˈtwɪtər/) is an online social networking service that enables users to send and read short 140-character messages called "tweets". [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 
@@ -73,7 +73,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     from core.xtweet import xtweet
     xtweet("#TheIoTLearningInitiative Testing Time", None)
 
-## Class xWolfram
+### Class xWolfram
 
 > Wolfram Alpha (also styled WolframAlpha and Wolfram|Alpha) is a computational knowledge engine[4] or answer engine developed by Wolfram Research. It is an online service that answers factual queries directly by computing the answer from externally sourced "curated data", rather than providing a list of documents or web pages that might contain the answer as a search engine might. [Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Alpha)
 
@@ -84,3 +84,13 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     xw = xWolfram()
     ourquestion = "What is the capital of Mexico"
     print xw.question(ourquestion)
+
+## Secondary
+
+### Function xanswer
+
+Allows to beep for True (2 tones) or False (1 tone)
+
+    # Usage
+    from core.xanswer import xanswer
+    xanswer(5, False)
