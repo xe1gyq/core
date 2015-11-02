@@ -58,6 +58,7 @@ Set a specific color in the display and show a specific text
 
 [PlotLy Homepage](https://plot.ly/)
 
+    # Usage
     from core.xplotly import xPlotLy
     xpl = xPlotLy("Core PlotLy")
     xpl.setup()
