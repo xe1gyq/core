@@ -86,6 +86,7 @@ Set a specific color in the display and show a specific text
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
     # Usage
+    from core.xwolfram import xWolfram
     xw = xWolfram()
     ourquestion = "What is the capital of Mexico"
     print xw.question(ourquestion)
