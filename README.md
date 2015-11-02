@@ -83,4 +83,5 @@ Set a specific color in the display and show a specific text
 
 > Wolfram Alpha (also styled WolframAlpha and Wolfram|Alpha) is a computational knowledge engine[4] or answer engine developed by Wolfram Research. It is an online service that answers factual queries directly by computing the answer from externally sourced "curated data", rather than providing a list of documents or web pages that might contain the answer as a search engine might. [Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Alpha)
 
-[Wolfram Alpha Homepage]()
+[Wolfram Alpha Homepage](http://www.wolframalpha.com/)
+
