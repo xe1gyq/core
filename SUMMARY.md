@@ -1,5 +1,5 @@
 # Summary
 
 * [Cover](README.md)
-* [Core](documentation/Introduction.md)
+* [Core](documentation/Core.md)
 
