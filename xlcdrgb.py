@@ -33,10 +33,10 @@ class xLcdRgb(object):
 
 if __name__ == "__main__":
 
-    xlr = xLcdRgb()
+    idLcdRgb = xLcdRgb()
     while True:
-        xlr.setCursor(0,0)
-        xlr.setText("Hello Lcd Rgb!") 
-        xlr.setColor("Red")
+        idLcdRgb.setCursor(0,0)
+        idLcdRgb.setText("Hello Lcd Rgb!") 
+        idLcdRgb.setColor("Red")
 
 # End of Text
