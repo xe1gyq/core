@@ -69,6 +69,8 @@ Introduction
     [voicerss]
     apikey = 
 
+    # Mashape
+    #
     # Go to market.mashape.com and sign up
     # Search for VoiceRss API and click on it
     # Copy your VoiceRss API Key and paste under "URL PARAMETERS key QUERY AUTH" field
@@ -76,6 +78,15 @@ Introduction
     # Copy the generated Mashape Key
     [mashape]
     mashapekey = 
+    
+    # Google
+    #
+    
+    # Gmail
+    #
+    
+    # Telegram
+    #
     
     # End of File
 ```
