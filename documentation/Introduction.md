@@ -221,7 +221,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ```
 
 ```Python
-    # Usage
     from core.xtweet import xTwitter
     
     idTwitter = xTwitter()
