@@ -114,8 +114,7 @@ Introduction
 
 ## Class xCamera
 
-Take a picture from connected Camera through USB
-Additional hardware required!
+__Additional hardware required!__ Take a picture from connected Camera through USB
 
 ```sh
     $ python core/xcamera.py
@@ -151,8 +150,8 @@ Additional hardware required!
 
 > A liquid-crystal display (LCD) is a flat panel display, electronic visual display, or video display that uses the light modulating properties of liquid crystals. Liquid crystals do not emit light directly. [Wikipedia](https://en.wikipedia.org/wiki/Liquid-crystal_display)
 
-Set a specific color in the display and show a specific text
-Additional hardware required!
+__Additional hardware required!__ Set a specific color in the display and show a specific text. 
+
 
 ```sh
     $ python core/xlcdrgb.py
