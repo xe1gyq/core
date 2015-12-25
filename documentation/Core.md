@@ -14,7 +14,9 @@ Take a picture from connected Camera through USB
 
 ## xFaceRecognition
 
-> Open Source Computer Vision. OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. 
+> Open Source Computer Vision. OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications.
+
+
 
 ```Python
     from core.xfacerecognition import xFaceRecognition
