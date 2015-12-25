@@ -41,8 +41,13 @@ class xVoice(object):
 
 if __name__ == "__main__":
 
-    xv = xVoice()
-    xv.record()
-    xv.play()
+    idVoice = xVoice()
+    idVoice.record()
+    idVoice.play()
+
+    pid = idVoice.recordstart()
+    time.sleep(5)
+    idVoice.recordstop(pid)
+    idVoice.play()
 
 # End of File
