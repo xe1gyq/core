@@ -59,6 +59,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
     # Usage
     from core.xtalk import xtalk
+    
     xtalk("en-us", "hello world!")
     xtalk("es-mx", "hola mundo")
 
