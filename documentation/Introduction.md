@@ -92,7 +92,8 @@ Introduction
     
     # Telegram
     #
-    
+    [telegram]
+    token = 
     # End of File
 ```
 
