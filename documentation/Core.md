@@ -1,9 +1,7 @@
 Core
 ==
 
-## Primary
-
-### Class xCamera
+## Class xCamera
 
 Take a picture from connected Camera through USB
 
@@ -14,7 +12,7 @@ Take a picture from connected Camera through USB
     idCamera.capture()
 ```
 
-### Class xLcdRgb
+## Class xLcdRgb
 
 > The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model)
 
@@ -33,7 +31,8 @@ Set a specific color in the display and show a specific text
         idLcdRgb.setColor("Red")
 ```
 
-### Class xPlotLy
+
+## Class xPlotLy
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Plotly)
 
