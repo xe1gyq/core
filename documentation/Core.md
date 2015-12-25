@@ -105,7 +105,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     xs = xSpeechRecognition()
     print xs.recognize()
 
-## Class xVoice
+### Class xVoice
 
     # Usage
     from core.xvoice import xVoice
