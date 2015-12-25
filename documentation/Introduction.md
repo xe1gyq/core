@@ -209,6 +209,8 @@ __Additional hardware required!__ Set a specific color in the display and show a
 
 ### Class xSpeechRecognition
 
+__Additional hardware required!__ 
+
 ```sh
     $ python core/xspeechrecognition.py
 ```
