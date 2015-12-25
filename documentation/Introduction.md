@@ -3,6 +3,8 @@ Introduction
 
 ## 
 
+    $ mkdir 
+
 ## Credentials
 
 ```sh
