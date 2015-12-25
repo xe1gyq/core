@@ -228,6 +228,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
+```sh
+    $ python core/xwolfram.py
+```
+
 ```Python
     from core.xwolfram import xWolfram
 
