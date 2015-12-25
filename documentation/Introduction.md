@@ -75,6 +75,12 @@ Introduction
     $ nano configuration/voicerss.mk
 ```
 
+```sh
+
+    $ ls configuration/
+    credentials.config  voicerss.ak  voicerss.mk
+
+
 ## Class xCamera
 
 Take a picture from connected Camera through USB
