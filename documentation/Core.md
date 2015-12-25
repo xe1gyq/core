@@ -14,7 +14,12 @@ Take a picture from connected Camera through USB
 
 ## xFaceRecognition
 
+```Python
+    from core.xfacerecognition import xFaceRecognition
 
+    idFaceRecognition = xFaceRecognition(imageinput='tin.jpeg', imageoutput='to$
+    idFaceRecognition.detect()
+```
 
 ## Class xLcdRgb
 
