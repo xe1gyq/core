@@ -26,9 +26,10 @@ Introduction
     [plotly]
     username = 
     apikey = 
-    streamtoken = 
-    streamtokentx = 
-    streamtokenrx = 
+    streamtokena = 
+    streamtokenb = 
+    streamtokenc = 
+    streamtokend = 
     
     # Go to dev.twitter.com and sign up
     # Go to Tools -> Manage Your Apps (Application Management)
