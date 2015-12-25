@@ -34,5 +34,5 @@ class xFaceRecognition(object):
 
 if __name__ == "__main__":
 
-    faces = xFaceRecognition(imageinput='tin.jpeg', imageoutput='tout.jpeg')
-    faces.detect()
+    idFaceRecognition = xFaceRecognition(imageinput='tin.jpeg', imageoutput='tout.jpeg')
+    idFaceRecognition.detect()

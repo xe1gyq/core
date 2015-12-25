@@ -2,6 +2,7 @@
 
 import commands
 import logging
+import os
 import pygame
 import pygame.camera
 
@@ -9,8 +10,11 @@ class xCamera(object):
 
     def __init__(self):
 
-        self.picturepygame = 'output/camerapygame.jpg'
-        self.picturefswebcam = 'output/camerafswebcam.jpg'
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.directoryoutput = self.directorycurrent + '/output/'
+        self.picturepygame = self.directoryoutput + '/camerapygame.jpg'
+        self.picturefswebcam = self.directoryoutput + '/camerafswebcam.jpg'
+
 
     def __del__(self):
         pass
@@ -44,7 +48,7 @@ class xCamera(object):
 
 if __name__ == "__main__":
 
-        xc = xCamera()
-        xc.capture()
+        idCamera = xCamera()
+        idCamera.capture()
 
 # End of File

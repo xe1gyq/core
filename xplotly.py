@@ -45,11 +45,11 @@ class xPlotLy(object):
 
 if __name__ == "__main__":
 
-    xpl = xPlotLy("Core PlotLy")
-    xpl.setup()
+    xPlotly = xPlotLy("Core PlotLy")
+    xPlotly.setup()
     counter = 0
     while True:
-        xpl.graph(counter, counter+1)
+        xPlotly.graph(counter, counter+1)
         counter += 1
         time.sleep(0.25)
 
