@@ -1,7 +1,9 @@
 Introduction
 ==
 
-## Setup
+## 
+
+## Credentials
 
 ```sh
     root@platform:~# cd InternetOfThings101/code/iotpy
