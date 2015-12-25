@@ -2,18 +2,18 @@
 
 import ConfigParser
 import json
+import os
 import re
 import speech_recognition as sr
 
-from os import path
-
 class xSpeechRecognition(object):
 
-    def __init__(self, engine='google', wavfile='output/xvoice.wav'):
+    def __init__(self, engine='google', wavfile='voice.wav'):
         self.engine = engine
-        self.wavfile = wavfile
-    
-    def setup(self):
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.directoryoutput = self.directorycurrent + '/output/'
+        self.wavfile = self.directoryoutput + wavfile
+
         self.r = sr.Recognizer()
         with sr.WavFile(self.wavfile) as self.source:
             self.audio = self.r.record(self.source)
@@ -22,7 +22,6 @@ class xSpeechRecognition(object):
         self.wavfile = wavfile
 
     def recognize(self):
-        self.setup()
         if self.engine == 'google':
             try:
                 from pprint import pprint
@@ -36,7 +35,7 @@ class xSpeechRecognition(object):
 
 if __name__ == "__main__":
 
-    xs = xSpeechRecognition()
-    print xs.recognize()
+    xSpeechRecognition = xSpeechRecognition()
+    print xSpeechRecognition.recognize()
 
 # End of File

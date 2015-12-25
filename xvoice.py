@@ -11,7 +11,6 @@ class xVoice(object):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
         self.directoryoutput = self.directorycurrent + '/output/'
         self.voicefile = self.directoryoutput + voicefile
-        self.filename = "output/xvoice.wav"
         self.proc = None
 
     def filenameset(self, voicefile):
