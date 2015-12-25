@@ -101,8 +101,8 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ### Class xVoice
 
 ```Python
-    # Usage
     from core.xvoice import xVoice
+
     xv = xVoice()
     xv.record()
     xv.play()
@@ -111,7 +111,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ### Class xSpeechRecognition
 
 ```Python
-    # Usage
+
     from core.xspeechrecognition import xSpeechRecognition
     xs = xSpeechRecognition()
     print xs.recognize()
