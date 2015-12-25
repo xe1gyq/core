@@ -122,6 +122,10 @@ Set a specific color in the display and show a specific text
 
 - [MQTT Homepage](http://mqtt.org/)
 
+```sh
+    $ python core/xmqttpub.py
+```
+
 ```Python
     from core.xmqttpub import xMqttPub
     
