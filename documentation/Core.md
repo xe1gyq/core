@@ -116,6 +116,16 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
 ```
 
+### Class xVoice
+
+```Python
+    from core.xvoice import xVoice
+
+    idVoice = xVoice()
+    idVoice.record()
+    idVoice.play()
+```
+
 ### Class xWolfram
 
 > Wolfram Alpha (also styled WolframAlpha and Wolfram|Alpha) is a computational knowledge engine[4] or answer engine developed by Wolfram Research. It is an online service that answers factual queries directly by computing the answer from externally sourced "curated data", rather than providing a list of documents or web pages that might contain the answer as a search engine might. [Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Alpha)
@@ -129,14 +139,4 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     question = "What is the capital of Mexico"
     answer = idWolfram.question(question)
     print answer
-```
-
-### Class xVoice
-
-```Python
-    from core.xvoice import xVoice
-
-    idVoice = xVoice()
-    idVoice.record()
-    idVoice.play()
 ```
