@@ -8,12 +8,17 @@ Introduction
     $ mkdir project
     $ cd project
     $ git clone https://github.com/xe1gyq/core.git
+    $ ls
+    core
+
 ```
 
 ## Credentials
 
 ```sh
     $ mkdir configuration
+    $ ls
+    configuration  core
     $ nano configuration/credentials.config
 ```
 
