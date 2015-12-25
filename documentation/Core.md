@@ -71,7 +71,8 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
     # Usage
     from core.xtweet import xtweet
-    xtweet("#TheIoTLearningInitiative Testing Time", None)
+    idTwitter = xTwitter()
+    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
 
 ### Class xWolfram
 
