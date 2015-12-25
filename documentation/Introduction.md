@@ -13,7 +13,9 @@ Introduction
 
 ```sh
     $ nano configuration/credentials
-    
+```
+
+```sh
     # IoTPy File Configuration
     
     # Go to https://plot.ly and sign up
