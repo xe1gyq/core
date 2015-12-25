@@ -65,6 +65,10 @@ Introduction
 
 Take a picture from connected Camera through USB
 
+```sh
+    $ python core/xcamera.py
+```
+
 ```Python
     from core.xcamera import xCamera
 
@@ -77,6 +81,10 @@ Take a picture from connected Camera through USB
 > Open Source Computer Vision. OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications.
 
 - [OpenCV Homepage](http://opencv.org/)
+
+```sh
+    $ python core/xfacerecognition.py
+```
 
 ```Python
     from core.xfacerecognition import xFaceRecognition
@@ -92,6 +100,10 @@ Take a picture from connected Camera through USB
 > A liquid-crystal display (LCD) is a flat panel display, electronic visual display, or video display that uses the light modulating properties of liquid crystals. Liquid crystals do not emit light directly. [Wikipedia](https://en.wikipedia.org/wiki/Liquid-crystal_display)
 
 Set a specific color in the display and show a specific text
+
+```sh
+    $ python core/xlcdrgb.py
+```
 
 ```Python
     from core.xlcdrgb import xLcdRgb
