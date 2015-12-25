@@ -140,6 +140,10 @@ Set a specific color in the display and show a specific text
 [PlotLy Homepage](https://plot.ly/)
 
 
+```sh
+    $ python core/xplotly.py
+```
+
 ```Python
     from core.xplotly import xPlotLy
     
