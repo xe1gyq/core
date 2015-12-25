@@ -70,7 +70,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 [Twitter Homepage](https://twitter.com/)
 
     # Usage
-    from core.xtweet import xtweet
+    from core.xtweet import xTwitter
     idTwitter = xTwitter()
     idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
 
