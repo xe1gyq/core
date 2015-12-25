@@ -92,9 +92,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ```Python
     # Usage
     from core.xwolfram import xWolfram
-    xw = xWolfram()
-    ourquestion = "What is the capital of Mexico"
-    print xw.question(ourquestion)
+
+    idWolfram = xWolfram()
+    question = "What is the capital of Mexico"
+    answer = idWolfram.question(ourquestion)
 ```
 
 ## Secondary
