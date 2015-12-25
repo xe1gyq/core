@@ -98,16 +98,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     print answer
 ```
 
-## Secondary
-
-### Function xanswer
-
-Allows to beep for True (2 tones) or False (1 tone)
-
-    # Usage
-    from core.xanswer import xanswer
-    xanswer(5, False)
-
 ### Class xSpeechRecognition
 
     # Usage
