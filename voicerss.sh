@@ -1,9 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 
 language=$1
 text=$2
+
 mashapekey=`cat configuration/voicerss.mk`
 apikey=`cat configuration/voicerss.ak`
+
+player=mpg123
+
+directoryRoot=`pwd`
+directoryOutput=$directoryRoot/output
+
+test -d $directoryOutput || mkdir $directoryOutput
+
+echo "Text: " $text
 
 curl -k -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${apikey}" \
   -H "X-Mashape-Key: ${mashapekey}" \
@@ -12,8 +22,8 @@ curl -k -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${
   -d 'f=48khz_16bit_stereo' \
   -d "hl=${language}" \
   -d 'r=0' \
-  -d "src=${text}" > output/voicerss.sound
+  -d "src=${text}" > $directoryOutput/voicerss.sound > /dev/null 2>&1
 
-mpg123 output/voicerss.sound
+$player $directoryOutput/voicerss.sound > /dev/null 2>&1
 
 # End of File
