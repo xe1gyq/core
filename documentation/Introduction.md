@@ -13,8 +13,8 @@ Introduction
 
 ```sh
     root@platform:~# cd InternetOfThings101/code/iotpy
-    root@platform:~/InternetOfThings101/code/iotpy# mkdir configuration
-    root@platform:~/InternetOfThings101/code/iotpy# nano configuration/credentials
+    $ mkdir configuration
+    $ nano configuration/credentials
     
     # IoTPy File Configuration
     
