@@ -112,4 +112,3 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     from core.xspeechrecognition import xSpeechRecognition
     xs = xSpeechRecognition()
     print xs.recognize()
-
