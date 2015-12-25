@@ -1,9 +1,7 @@
 Core
 ==
 
-## Primary
-
-### Class xCamera
+## Class xCamera
 
 Take a picture from connected Camera through USB
 
@@ -14,7 +12,20 @@ Take a picture from connected Camera through USB
     idCamera.capture()
 ```
 
-### Class xLcdRgb
+## Class xFaceRecognition
+
+> Open Source Computer Vision. OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications.
+
+- [OpenCV Homepage](http://opencv.org/)
+
+```Python
+    from core.xfacerecognition import xFaceRecognition
+
+    idFaceRecognition = xFaceRecognition(imageinput='in.jpeg', imageoutput='out.jpeg')
+    idFaceRecognition.detect()
+```
+
+## Class xLcdRgb
 
 > The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model)
 
@@ -24,15 +35,25 @@ Set a specific color in the display and show a specific text
 
 ```Python
     from core.xlcdrgb import xLcdRgb
-    xlr = xLcdRgb()
+    
+    idLcdRgb = xLcdRgb()
     while True:
-        xlr.clear()
-        xlr.setCursor(0,0)
-        xlr.setText("Hello Lcd Rgb!")
-        xlr.setColor("Red")
+        idLcdRgb.clear()
+        idLcdRgb.setCursor(0,0)
+        idLcdRgb.setText("Hello Lcd Rgb!")
+        idLcdRgb.setColor("Red")
 ```
 
-### Class xPlotLy
+## Class xMqttPub
+
+```Python
+    from core.xmqttpub import xMqttPub
+    
+    idMqtt = xMqttPub(server="test.mosquitto.org", port=1883)
+    idMqtt.write("temp/random", "43")
+```
+
+## Class xPlotLy
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Plotly)
 
@@ -42,13 +63,12 @@ Set a specific color in the display and show a specific text
 ```Python
     from core.xplotly import xPlotLy
     
-    xpl = xPlotLy("Core PlotLy")
-    xpl.setup()
+    xPlotly = xPlotLy("Core PlotLy Random")
     counter = 0
     while True:
-        xpl.graph(counter, counter+1)
+        xPlotly.graph(counter, random.random())
         counter += 1
-        time.sleep(0.25)
+        time.sleep(0.5)
 ```
 
 ### Function xtalk
@@ -66,8 +86,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ```Python
     from core.xtalk import xtalk
     
-    xtalk("en-us", "hello world!")
-    xtalk("es-mx", "hola mundo")
+    xtalk("en-us", "Hello World of Text To Speech via Voice RSS")
 ```
 
 ### Function xTwitter
@@ -76,11 +95,13 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Twitter Homepage](https://twitter.com/)
 
+```Python
     # Usage
     from core.xtweet import xTwitter
     
     idTwitter = xTwitter()
     idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+```
 
 ### Class xWolfram
 
@@ -88,33 +109,30 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
-    # Usage
+```Python
     from core.xwolfram import xWolfram
-    xw = xWolfram()
-    ourquestion = "What is the capital of Mexico"
-    print xw.question(ourquestion)
 
-## Secondary
+    idWolfram = xWolfram()
+    question = "What is the capital of Mexico"
+    answer = idWolfram.question(question)
+    print answer
+```
 
-### Function xanswer
+### Class xVoice
 
-Allows to beep for True (2 tones) or False (1 tone)
+```Python
+    from core.xvoice import xVoice
 
-    # Usage
-    from core.xanswer import xanswer
-    xanswer(5, False)
+    idVoice = xVoice()
+    idVoice.record()
+    idVoice.play()
+```
 
 ### Class xSpeechRecognition
 
-    # Usage
+```Python
     from core.xspeechrecognition import xSpeechRecognition
-    xs = xSpeechRecognition()
-    print xs.recognize()
-
-## Class xVoice
-
-    # Usage
-    from core.xvoice import xVoice
-    xv = xVoice()
-    xv.record()
-    xv.play()
+    
+    idSpeechRecognition = xSpeechRecognition()
+    print idSpeechRecognition.recognize()
+```
