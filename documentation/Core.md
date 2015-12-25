@@ -103,16 +103,16 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ```Python
     from core.xvoice import xVoice
 
-    xv = xVoice()
-    xv.record()
-    xv.play()
+    idVoice = xVoice()
+    idVoice.record()
+    idVoice.play()
 ```
 
 ### Class xSpeechRecognition
 
 ```Python
-
     from core.xspeechrecognition import xSpeechRecognition
-    xs = xSpeechRecognition()
-    print xs.recognize()
+    
+    idSpeechRecognition = xSpeechRecognition()
+    print idSpeechRecognition.recognize()
 ```
