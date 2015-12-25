@@ -77,7 +77,7 @@ Introduction
 
 ```sh
 
-    $ ls configuration/ 
+    $ ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
 ```
 
