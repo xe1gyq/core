@@ -79,7 +79,7 @@ Introduction
 
     $ ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
-
+```
 
 ## Class xCamera
 
