@@ -98,13 +98,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     print answer
 ```
 
-### Class xSpeechRecognition
-
-    # Usage
-    from core.xspeechrecognition import xSpeechRecognition
-    xs = xSpeechRecognition()
-    print xs.recognize()
-
 ### Class xVoice
 
     # Usage
@@ -112,3 +105,11 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     xv = xVoice()
     xv.record()
     xv.play()
+
+### Class xSpeechRecognition
+
+    # Usage
+    from core.xspeechrecognition import xSpeechRecognition
+    xs = xSpeechRecognition()
+    print xs.recognize()
+
