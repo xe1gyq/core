@@ -12,6 +12,10 @@ Take a picture from connected Camera through USB
     idCamera.capture()
 ```
 
+## xFaceRecognition
+
+
+
 ## Class xLcdRgb
 
 > The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model)
