@@ -12,7 +12,6 @@ Introduction
 ## Credentials
 
 ```sh
-    root@platform:~# cd InternetOfThings101/code/iotpy
     $ mkdir configuration
     $ nano configuration/credentials
     
