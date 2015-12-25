@@ -19,5 +19,5 @@ class xMqttPub(object):
 
 if __name__ == "__main__":
 
-    idMqtt = xMqttPub(server="test.mosquitto.org", port=1883)
-    idMqtt.write("temp/random", "43")
+    idMqttPub = xMqttPub(server="test.mosquitto.org", port=1883)
+    idMqttPub.write("temp/random", "43")
