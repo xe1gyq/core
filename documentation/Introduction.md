@@ -41,6 +41,12 @@ Introduction
     access_token = 
     access_token_secret = 
 
+    # WolframAlpha
+    #
+    # Go to developer.wolframalpha.com/ and sign up
+    # Get your App Id under My Apps > Get an AppID 
+    appid = 
+    
     # PlotLy
     #
     # Go to https://plot.ly and sign up
@@ -53,12 +59,6 @@ Introduction
     streamtokenb = 
     streamtokenc = 
     streamtokend = 
-    
-    # WolframAlpha
-    #
-    # Go to developer.wolframalpha.com/ and sign up
-    # Get your App Id under My Apps > Get an AppID 
-    appid = 
     
     # VoiceRss
     #
