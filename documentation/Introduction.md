@@ -56,7 +56,7 @@ Introduction
     
     # WolframAlpha
     #
-    # Go to http://www.wolframalpha.com/widgets/
+    # Go to developer.wolframalpha.com/ and sign up
     
     # VoiceRss
     #
