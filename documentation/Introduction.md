@@ -12,7 +12,6 @@ Introduction
 ## Credentials
 
 ```sh
-    $ mkdir configuration
     $ nano configuration/credentials
     
     # IoTPy File Configuration
