@@ -10,7 +10,7 @@ Introduction
     $ git clone https://github.com/xe1gyq/core.git
     $ ls
     core
-    # sh core/setup/dependencies.sh
+    # sh core/dependencies.sh
 
 ```
 
