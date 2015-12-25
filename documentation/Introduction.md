@@ -3,7 +3,8 @@ Introduction
 
 ## 
 
-    $ mkdir 
+    $ cd
+    $ mkdir project
 
 ## Credentials
 
