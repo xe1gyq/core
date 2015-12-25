@@ -25,6 +25,8 @@ Introduction
 ```sh
     # IoTPy File Configuration
 
+    # Twitter
+    #
     # Go to dev.twitter.com and sign up
     # Go to Tools -> Manage Your Apps (Application Management)
     # Create a New Application and go to "Keys and Access Tokens" tab
@@ -39,6 +41,8 @@ Introduction
     access_token = 
     access_token_secret = 
 
+    # PlotLy
+    #
     # Go to https://plot.ly and sign up
     # Get your Username and API Key under Settings -> API Settings -> API
     # Get 3 Stream Tokens under Settings -> API Settings -> Streaming API -> Generate Token
@@ -50,6 +54,12 @@ Introduction
     streamtokenc = 
     streamtokend = 
     
+    # WolframAlpha
+    #
+    # 
+    
+    # VoiceRss
+    #
     # Go to www.voicerss.org and sign up
     # Go to API -> Get API Key
     # 
