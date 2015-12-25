@@ -95,7 +95,8 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
     idWolfram = xWolfram()
     question = "What is the capital of Mexico"
-    answer = idWolfram.question(ourquestion)
+    answer = idWolfram.question(question)
+    print answer
 ```
 
 ## Secondary
