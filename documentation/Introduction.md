@@ -5,6 +5,8 @@ Introduction
 
     $ cd
     $ mkdir project
+    $ cd project
+    
 
 ## Credentials
 
