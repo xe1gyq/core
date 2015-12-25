@@ -24,12 +24,13 @@ Set a specific color in the display and show a specific text
 
 ```Python
     from core.xlcdrgb import xLcdRgb
-    xlr = xLcdRgb()
+    
+    idLcdRgb = xLcdRgb()
     while True:
-        xlr.clear()
-        xlr.setCursor(0,0)
-        xlr.setText("Hello Lcd Rgb!")
-        xlr.setColor("Red")
+        idLcdRgb.clear()
+        idLcdRgb.setCursor(0,0)
+        idLcdRgb.setText("Hello Lcd Rgb!")
+        idLcdRgb.setColor("Red")
 ```
 
 ### Class xPlotLy
