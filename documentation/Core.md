@@ -35,8 +35,10 @@ Set a specific color in the display and show a specific text
 
 [PlotLy Homepage](https://plot.ly/)
 
-    # Usage
+
+    
     from core.xplotly import xPlotLy
+    
     xpl = xPlotLy("Core PlotLy")
     xpl.setup()
     counter = 0
@@ -56,6 +58,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 > Hundreds of thousands of developers rely on Mashape products for deliverying better APIs and Microservices.
 
 [Mashape Homepage](https://www.mashape.com/)
+
 
     # Usage
     from core.xtalk import xtalk
