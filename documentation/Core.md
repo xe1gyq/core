@@ -75,11 +75,13 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Twitter Homepage](https://twitter.com/)
 
+```Python
     # Usage
     from core.xtweet import xTwitter
     
     idTwitter = xTwitter()
     idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+```
 
 ### Class xWolfram
 
@@ -87,11 +89,13 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
+```Python
     # Usage
     from core.xwolfram import xWolfram
     xw = xWolfram()
     ourquestion = "What is the capital of Mexico"
     print xw.question(ourquestion)
+```
 
 ## Secondary
 
