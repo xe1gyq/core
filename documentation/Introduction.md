@@ -224,7 +224,7 @@ __Additional hardware required!__
 
 ### Function xtalk
 
-Uses VoiceRSS service through Mashape to enable Text To Speech Service
+__Additional hardware required!__ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 > Voice RSS provides free text-to-speech (TTS) online service and free TTS API with very fast and simple integration.
 
