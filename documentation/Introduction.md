@@ -14,7 +14,7 @@ Introduction
 
 ```sh
     $ mkdir configuration
-    $ nano configuration/credentials
+    $ nano configuration/credentials.config
 ```
 
 ```sh
