@@ -6,7 +6,7 @@ Introduction
     $ cd
     $ mkdir project
     $ cd project
-    $ git clone 
+    $ git clone https://github.com/xe1gyq/core.git
 
 ## Credentials
 
