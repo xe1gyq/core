@@ -180,6 +180,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Mashape Homepage](https://www.mashape.com/)
 
+```sh
+    $ python core/xtalk.py
+```
+
 ```Python
     from core.xtalk import xtalk
     
