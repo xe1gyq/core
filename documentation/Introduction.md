@@ -1,6 +1,8 @@
 Introduction
 ==
 
+## Setup
+
 ## Class xCamera
 
 Take a picture from connected Camera through USB
