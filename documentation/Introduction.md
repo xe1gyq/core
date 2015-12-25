@@ -24,18 +24,7 @@ Introduction
 
 ```sh
     # IoTPy File Configuration
-    
-    # Go to https://plot.ly and sign up
-    # Get your Username and API Key under Settings -> API Settings -> API
-    # Get 3 Stream Tokens under Settings -> API Settings -> Streaming API -> Generate Token
-    [plotly]
-    username = 
-    apikey = 
-    streamtokena = 
-    streamtokenb = 
-    streamtokenc = 
-    streamtokend = 
-    
+
     # Go to dev.twitter.com and sign up
     # Go to Tools -> Manage Your Apps (Application Management)
     # Create a New Application and go to "Keys and Access Tokens" tab
@@ -49,6 +38,17 @@ Introduction
     consumer_secret = 
     access_token = 
     access_token_secret = 
+
+    # Go to https://plot.ly and sign up
+    # Get your Username and API Key under Settings -> API Settings -> API
+    # Get 3 Stream Tokens under Settings -> API Settings -> Streaming API -> Generate Token
+    [plotly]
+    username = 
+    apikey = 
+    streamtokena = 
+    streamtokenb = 
+    streamtokenc = 
+    streamtokend = 
     
     # Go to www.voicerss.org and sign up
     # Go to API -> Get API Key
