@@ -34,5 +34,5 @@ class xFaceRecognition(object):
 
 if __name__ == "__main__":
 
-    xfaces = xFaceRecognition()
-    xfaces.detect()
+    faces = xFaceRecognition()
+    faces.detect()
