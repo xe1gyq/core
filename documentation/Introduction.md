@@ -83,18 +83,18 @@ Introduction
     #
     [google]
     api_key = 
-        
+    
     # Gmail
     #
     [gmail]
     username = 
     password = 
-        
+    
     # Telegram
     #
     [telegram]
     token = 
-        
+    
     # End of File
 ```
 
