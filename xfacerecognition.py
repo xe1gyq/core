@@ -3,7 +3,6 @@
 import cv2
 import os
 import sys
-import tempfile
 
 class xFaceRecognition(object):
 
@@ -25,6 +24,7 @@ class xFaceRecognition(object):
             minSize=(30, 30),
             flags = cv2.cv.CV_HAAR_SCALE_IMAGE
         )
+
         print "Found {0} faces!".format(len(faces))
 
         for (x, y, w, h) in faces:
