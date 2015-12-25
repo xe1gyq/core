@@ -66,8 +66,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 ```Python
     from core.xtalk import xtalk
     
-    xtalk("en-us", "hello world!")
-    xtalk("es-mx", "hola mundo")
+    xtalk("en-us", "Hello World of Text To Speech via Voice RSS")
 ```
 
 ### Function xTwitter
