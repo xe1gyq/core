@@ -6,7 +6,7 @@ Introduction
     $ cd
     $ mkdir project
     $ cd project
-    
+    $ git clone 
 
 ## Credentials
 
