@@ -63,7 +63,7 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     xtalk("es-mx", "hola mundo")
 
 
-### Function xtwitter
+### Function xTwitter
 
 > Twitter (/ˈtwɪtər/) is an online social networking service that enables users to send and read short 140-character messages called "tweets". [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 
