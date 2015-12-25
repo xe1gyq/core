@@ -7,10 +7,12 @@ Core
 
 Take a picture from connected Camera through USB
 
-    # Usage
+```Python
     from core.xcamera import xCamera
-    xc = xCamera()
-    xc.capture()
+
+    idCamera = xCamera()
+    idCamera.capture()
+```
 
 ### Class xLcdRgb
 
@@ -20,7 +22,7 @@ Take a picture from connected Camera through USB
 
 Set a specific color in the display and show a specific text
 
-    # Usage
+```Python
     from core.xlcdrgb import xLcdRgb
     xlr = xLcdRgb()
     while True:
@@ -28,6 +30,7 @@ Set a specific color in the display and show a specific text
         xlr.setCursor(0,0)
         xlr.setText("Hello Lcd Rgb!")
         xlr.setColor("Red")
+```
 
 ### Class xPlotLy
 
@@ -36,7 +39,7 @@ Set a specific color in the display and show a specific text
 [PlotLy Homepage](https://plot.ly/)
 
 
-    
+```Python
     from core.xplotly import xPlotLy
     
     xpl = xPlotLy("Core PlotLy")
@@ -46,6 +49,7 @@ Set a specific color in the display and show a specific text
         xpl.graph(counter, counter+1)
         counter += 1
         time.sleep(0.25)
+```
 
 ### Function xtalk
 
@@ -59,13 +63,12 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Mashape Homepage](https://www.mashape.com/)
 
-
-    # Usage
+```Python
     from core.xtalk import xtalk
     
     xtalk("en-us", "hello world!")
     xtalk("es-mx", "hola mundo")
-
+```
 
 ### Function xTwitter
 
