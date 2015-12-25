@@ -75,6 +75,15 @@ Set a specific color in the display and show a specific text
         time.sleep(0.5)
 ```
 
+### Class xSpeechRecognition
+
+```Python
+    from core.xspeechrecognition import xSpeechRecognition
+    
+    idSpeechRecognition = xSpeechRecognition()
+    print idSpeechRecognition.recognize()
+```
+
 ### Function xtalk
 
 Uses VoiceRSS service through Mashape to enable Text To Speech Service
@@ -130,13 +139,4 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
     idVoice = xVoice()
     idVoice.record()
     idVoice.play()
-```
-
-### Class xSpeechRecognition
-
-```Python
-    from core.xspeechrecognition import xSpeechRecognition
-    
-    idSpeechRecognition = xSpeechRecognition()
-    print idSpeechRecognition.recognize()
 ```
