@@ -43,13 +43,12 @@ Set a specific color in the display and show a specific text
 ```Python
     from core.xplotly import xPlotLy
     
-    xpl = xPlotLy("Core PlotLy")
-    xpl.setup()
+    xPlotly = xPlotLy("Core PlotLy Random")
     counter = 0
     while True:
-        xpl.graph(counter, counter+1)
+        xPlotly.graph(counter, random.random())
         counter += 1
-        time.sleep(0.25)
+        time.sleep(0.5)
 ```
 
 ### Function xtalk
