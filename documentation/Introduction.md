@@ -1,4 +1,4 @@
-Core
+Introduction
 ==
 
 ## Class xCamera
