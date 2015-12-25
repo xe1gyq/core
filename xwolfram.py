@@ -2,23 +2,22 @@
 
 import ConfigParser
 import logging
+import os
 import re
 import wolframalpha
 
 class xWolfram(object):
 
     def __init__(self):
-        pass
-    
-    def setup(self):
-        self.conf = ConfigParser.ConfigParser()
-        self.path = "configuration/credentials.config"
-        self.conf.read(self.path)
-        appid=self.conf.get("wolfram", "appid")
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.directoryconfiguration = self.directorycurrent + '/../configuration/'
+        self.configuration = ConfigParser.ConfigParser()
+        self.credentialspath = self.directoryconfiguration + "credentials.config"
+        self.configuration.read(self.credentialspath)
+        appid=self.configuration.get("wolfram", "appid")
         self.client = wolframalpha.Client(appid)
 
     def question(self, question):
-        self.setup()
         try:
             res = self.client.query(question)
             string = re.sub('[^0-9a-zA-Z]+', ' ', next(res.results).text)
@@ -28,8 +27,9 @@ class xWolfram(object):
 
 if __name__ == "__main__":
 
-    xw = xWolfram()
-    ourquestion = "What is the capital of Mexico"
-    print xw.question(ourquestion)
+    idWolfram = xWolfram()
+    question = "What is the capital of Mexico"
+    answer = idWolfram.question(question)
+    print answer
 
 # End of File
