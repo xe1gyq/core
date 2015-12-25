@@ -263,6 +263,8 @@ __Additional hardware required!__ Uses VoiceRSS service through Mashape to enabl
 
 ### Class xVoice
 
+__Additional hardware required!__ 
+
 ```sh
     $ python core/xvoice.py
 ```
