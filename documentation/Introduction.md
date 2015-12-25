@@ -80,10 +80,15 @@ Introduction
     mashapekey = 
     
     # Google
-    # api_key
+    #
+    [google]
+    api_key
     
     # Gmail
     #
+    [gmail]
+    username = 
+    password = 
     
     # Telegram
     #
