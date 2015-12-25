@@ -157,6 +157,10 @@ Set a specific color in the display and show a specific text
 
 ### Class xSpeechRecognition
 
+```sh
+    $ python core/xspeechrecognition.py
+```
+
 ```Python
     from core.xspeechrecognition import xSpeechRecognition
     
