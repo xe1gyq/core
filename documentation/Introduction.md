@@ -210,6 +210,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 ### Class xVoice
 
+```sh
+    $ python core/xvoice.py
+```
+
 ```Python
     from core.xvoice import xVoice
 
