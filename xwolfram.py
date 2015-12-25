@@ -14,7 +14,7 @@ class xWolfram(object):
         self.configuration = ConfigParser.ConfigParser()
         self.credentialspath = self.directoryconfiguration + "credentials.config"
         self.configuration.read(self.credentialspath)
-        appid=self.configuration.get("wolfram", "appid")
+        appid=self.configuration.get("wolframalpha", "appid")
         self.client = wolframalpha.Client(appid)
 
     def question(self, question):
