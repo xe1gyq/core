@@ -196,6 +196,10 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
 [Twitter Homepage](https://twitter.com/)
 
+```sh
+    $ python core/xtwitter.py
+```
+
 ```Python
     # Usage
     from core.xtweet import xTwitter
