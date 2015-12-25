@@ -90,7 +90,6 @@ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
 ```Python
-    # Usage
     from core.xwolfram import xWolfram
 
     idWolfram = xWolfram()
