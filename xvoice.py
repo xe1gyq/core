@@ -9,9 +9,7 @@ class xVoice(object):
 
     def __init__(self, voicefile="voice.wav"):
         #self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryoutput = 'output/'
-        print self.directoryoutput
-        self.voicefile = self.directoryoutput + voicefile
+        self.voicefile = voicefile
         self.proc = None
 
     def filenameset(self, voicefile):
@@ -21,7 +19,7 @@ class xVoice(object):
         return self.voicefile
 
     def recordstart(self):
-        args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
+        args = ['arecord', '-t', 'wav', '-D', 'default', '-f', 'S16_LE', '-r', '48000', self.voicefile]
         #args = ['arecord', '-D', 'default', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
         #args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.filename]
         proc = subprocess.Popen(args)
@@ -34,7 +32,7 @@ class xVoice(object):
     def record(self):
         time.sleep(1)
         proc = self.recordstart()
-        time.sleep(10)
+        time.sleep(5)
         self.recordstop(proc)
 
     def play(self):
