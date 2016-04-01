@@ -8,8 +8,9 @@ import time
 class xVoice(object):
 
     def __init__(self, voicefile="voice.wav"):
-        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryoutput = self.directorycurrent + '/output/'
+        #self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.directoryoutput = 'output/'
+        print self.directoryoutput
         self.voicefile = self.directoryoutput + voicefile
         self.proc = None
 
@@ -20,7 +21,8 @@ class xVoice(object):
         return self.voicefile
 
     def recordstart(self):
-        args = ['arecord', '-D', 'plughw:1,0', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
+        args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
+        #args = ['arecord', '-D', 'default', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
         #args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.filename]
         proc = subprocess.Popen(args)
         print "PID:", proc.pid
@@ -32,11 +34,11 @@ class xVoice(object):
     def record(self):
         time.sleep(1)
         proc = self.recordstart()
-        time.sleep(5)
+        time.sleep(10)
         self.recordstop(proc)
 
     def play(self):
-        status, output = commands.getstatusoutput("aplay " + self.voicefile)
+        status, output = commands.getstatusoutput("aplay -D default " + self.voicefile)
         print output
 
     def erase(self):

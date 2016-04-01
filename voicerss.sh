@@ -22,8 +22,8 @@ curl -k -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${
   -d 'f=48khz_16bit_stereo' \
   -d "hl=${language}" \
   -d 'r=0' \
-  -d "src=${text}" > $directoryOutput/voicerss.sound > /dev/null 2>&1
+  -d "src=${text}" > $directoryOutput/voicerss.sound
 
-$player $directoryOutput/voicerss.sound > /dev/null 2>&1
+$player $directoryOutput/voicerss.sound
 
 # End of File

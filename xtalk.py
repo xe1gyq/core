@@ -6,7 +6,9 @@ import subprocess
 def xtalk(language, message):
 
     directorycurrent = os.path.dirname(os.path.realpath(__file__))
-    voicerss = directorycurrent + '/voicerss.sh'
+    #voicerss = directorycurrent + 'core/voicerss.sh'
+    voicerss = 'core/voicerss.sh'
+    print voicerss
     command = [voicerss, language, message]
     proc = subprocess.call(command)
 
