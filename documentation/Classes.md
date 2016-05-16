@@ -172,7 +172,9 @@ __Additional hardware required!__
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
 ```sh
-    $ python core/xwolfram.py
+root@edison:~/myproject# python core/xwolfram.py                                
+Mexico City Distrito Federal Mexico                                             
+root@edison:~/myproject# 
 ```
 
 ```Python
