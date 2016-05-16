@@ -1,5 +1,5 @@
 #!/bin/sh
 
-opkg install python-dev fswebcam
-apt-get install python-pip python-opencv curl mpg123 python-pygame
+# apt-get install python-pip python-opencv curl mpg123 python-pygame
+opkg install python-dev fswebcam alsa-utils mpg123 espeak
 pip install paho-mqtt wolframalpha
