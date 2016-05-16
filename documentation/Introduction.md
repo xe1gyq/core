@@ -11,7 +11,6 @@ Introduction
     $ ls
     core
     # sh core/dependencies.sh
-
 ```
 
 ## Credentials
