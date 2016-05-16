@@ -8,8 +8,6 @@ Introduction
     $ mkdir yourproject
     $ cd yourproject
     $ git clone https://github.com/xe1gyq/core.git
-    $ ls
-    core
     # sh core/dependencies.sh
 ```
 
