@@ -91,6 +91,6 @@
 ```sh
 
     $ ls core/configuration/
-    credentials.config  voicerss.ak  voicerss.mk
+    credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 ```
 
