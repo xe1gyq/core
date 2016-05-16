@@ -4,4 +4,5 @@
 * [Introduction](documentation/Introduction.md)
 * [Setup](documentation/Setup.md)
 * Core
+   * Setup
 
