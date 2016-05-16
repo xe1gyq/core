@@ -172,10 +172,10 @@ __Additional hardware required!__
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
 ```Python
-    from core.xwolfram import xWolfram
+from core.xwolfram import xWolfram
 
-    idWolfram = xWolfram()                                                      
-    print idWolfram.question("What is the capital of Mexico")                   
+idWolfram = xWolfram()                                                      
+print idWolfram.question("What is the capital of Mexico")                   
 ```
 
 ```sh
