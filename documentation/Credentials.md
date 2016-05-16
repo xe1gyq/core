@@ -81,11 +81,11 @@
 ```
 
 ```sh
-    $ nano configuration/voicerss.ak
+    $ nano core/configuration/voicerss.ak
 ```
 
 ```sh
-    $ nano configuration/voicerss.mk
+    $ nano core/configuration/voicerss.mk
 ```
 
 ```sh
