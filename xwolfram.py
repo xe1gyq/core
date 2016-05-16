@@ -10,9 +10,10 @@ class xWolfram(object):
 
     def __init__(self):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryconfiguration = self.directorycurrent + '/../configuration/'
+        self.directoryconfiguration = self.directorycurrent + '/configuration/'
         self.configuration = ConfigParser.ConfigParser()
         self.credentialspath = self.directoryconfiguration + "credentials.config"
+        print self.credentialspath
         self.configuration.read(self.credentialspath)
         appid=self.configuration.get("wolframalpha", "appid")
         self.client = wolframalpha.Client(appid)
