@@ -180,7 +180,6 @@ root@edison:~/myproject#
 ```Python
     from core.xwolfram import xWolfram
 
-    idWolfram = xWolfram()
-    answer = idWolfram.question("What is the capital of Mexico")
-    print answer
+    idWolfram = xWolfram()                                                      
+    print idWolfram.question("What is the capital of Mexico")                   
 ```
