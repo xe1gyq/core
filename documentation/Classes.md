@@ -171,15 +171,15 @@ __Additional hardware required!__
 
 [Wolfram Alpha Homepage](http://www.wolframalpha.com/)
 
-```sh
-root@edison:~/myproject# python core/xwolfram.py                                
-Mexico City Distrito Federal Mexico                                             
-root@edison:~/myproject# 
-```
-
 ```Python
     from core.xwolfram import xWolfram
 
     idWolfram = xWolfram()                                                      
     print idWolfram.question("What is the capital of Mexico")                   
+```
+
+```sh
+root@edison:~/myproject# python core/xwolfram.py                                
+Mexico City Distrito Federal Mexico                                             
+root@edison:~/myproject# 
 ```
