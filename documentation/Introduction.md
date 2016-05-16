@@ -1,7 +1,7 @@
 Introduction
 ==
 
-## Base Setup
+## Core Setup
 
 ```sh
     $ cd
