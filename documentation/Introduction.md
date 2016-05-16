@@ -16,9 +16,9 @@ Introduction
 ## Credentials
 
 ```sh
-    $ mkdir configuration
+    $ cd core
     $ ls
-    configuration  core
+    core
     $ nano configuration/credentials.config
 ```
 
