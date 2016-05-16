@@ -81,16 +81,16 @@
 ```
 
 ```sh
-    $ nano configuration/voicerss.ak
+    $ nano core/configuration/voicerss.ak
 ```
 
 ```sh
-    $ nano configuration/voicerss.mk
+    $ nano core/configuration/voicerss.mk
 ```
 
 ```sh
 
     $ ls core/configuration/
-    credentials.config  voicerss.ak  voicerss.mk
+    credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 ```
 
