@@ -5,8 +5,8 @@ Introduction
 
 ```sh
     $ cd
-    $ mkdir project
-    $ cd project
+    $ mkdir yourproject
+    $ cd yourproject
     $ git clone https://github.com/xe1gyq/core.git
     $ ls
     core
