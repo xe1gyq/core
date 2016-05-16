@@ -28,8 +28,6 @@ class xWolfram(object):
 if __name__ == "__main__":
 
     idWolfram = xWolfram()
-    question = "What is the capital of Mexico"
-    answer = idWolfram.question(question)
-    print answer
+    print idWolfram.question("What is the capital of Mexico")
 
 # End of File
