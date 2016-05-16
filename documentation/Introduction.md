@@ -103,7 +103,7 @@ Introduction
 
 ```sh
 
-    $ core/configuration/
+    $ ls core/configuration/
     credentials.config  voicerss.ak  voicerss.mk
 ```
 
