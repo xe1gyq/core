@@ -1,6 +1,6 @@
 # Classes
 
-## Class xCamera
+## xCamera
 
 __Additional hardware required!__ Take a picture from connected Camera through USB
 
@@ -15,7 +15,7 @@ __Additional hardware required!__ Take a picture from connected Camera through U
     idCamera.capture()
 ```
 
-## Class xFaceRecognition
+## xFaceRecognition
 
 > Open Source Computer Vision. OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications.
 
@@ -32,7 +32,7 @@ __Additional hardware required!__ Take a picture from connected Camera through U
     idFaceRecognition.detect()
 ```
 
-## Class xLcdRgb
+## xLcdRgb
 
 > The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model)
 
@@ -56,7 +56,7 @@ __Additional hardware required!__ Set a specific color in the display and show a
         idLcdRgb.setColor("Red")
 ```
 
-## Class xMqttPub
+## xMqttPub
 
 > MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
 
@@ -73,7 +73,7 @@ __Additional hardware required!__ Set a specific color in the display and show a
     idMqtt.write("temp/random", "43")
 ```
 
-## Class xPlotLy
+## xPlotLy
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Plotly)
 
@@ -95,7 +95,7 @@ __Additional hardware required!__ Set a specific color in the display and show a
         time.sleep(0.5)
 ```
 
-### Class xSpeechRecognition
+### xSpeechRecognition
 
 __Additional hardware required!__ 
 
@@ -110,7 +110,7 @@ __Additional hardware required!__
     print idSpeechRecognition.recognize()
 ```
 
-### Function xtalk
+### xTalk
 
 __Additional hardware required!__ Uses VoiceRSS service through Mashape to enable Text To Speech Service
 
