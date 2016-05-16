@@ -5,5 +5,5 @@
 * Core
    * [Setup](documentation/Setup.md)
    * [Credentials](documentation/Credentials.md)
-   * Classes
+   * [Classes](documentation/Classes.md)
 
