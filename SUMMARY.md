@@ -4,5 +4,5 @@
 * [Introduction](documentation/Introduction.md)
 * Core
    * [Setup](documentation/Setup.md)
-   * Credentials
+   * [Credentials](documentation/Credentials.md)
 
