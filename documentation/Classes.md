@@ -181,7 +181,6 @@ root@edison:~/myproject#
     from core.xwolfram import xWolfram
 
     idWolfram = xWolfram()
-    question = "What is the capital of Mexico"
-    answer = idWolfram.question(question)
+    answer = idWolfram.question("What is the capital of Mexico")
     print answer
 ```
