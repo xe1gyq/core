@@ -16,10 +16,7 @@ Introduction
 ## Credentials
 
 ```sh
-    $ cd core
-    $ ls
-    core
-    $ nano configuration/credentials.config
+    $ nano core/configuration/credentials.config
 ```
 
 ```sh
