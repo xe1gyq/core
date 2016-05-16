@@ -132,7 +132,7 @@ __Additional hardware required!__ Uses VoiceRSS service through Mashape to enabl
     xtalk("en-us", "Hello World of Text To Speech via Voice RSS")
 ```
 
-### Function xTwitter
+### xTwitter
 
 > Twitter (/ˈtwɪtər/) is an online social networking service that enables users to send and read short 140-character messages called "tweets". [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 
