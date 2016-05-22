@@ -6,18 +6,16 @@ import os
 
 class xCamera(object):
 
-    def __init__(self):
-
+    def __init__(self, photoname="photo.jpeg"):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryoutput = self.directorycurrent + '/output/'
-        self.picturefswebcam = self.directoryoutput + '/camerafswebcam.jpg'
-
+        self.directoryfiles = self.directorycurrent + '/files/'
+        self.picturefswebcam = self.directoryfiles + photoname
 
     def __del__(self):
         pass
 
     def filepath(self):
-        return self.picturepygame
+        return self.picturefswebcam
 
     def setup(self):
         self.fswebcam = 'fswebcam'
@@ -28,6 +26,11 @@ class xCamera(object):
 
         self.setup()
         status, output = commands.getstatusoutput(self.fswebcamcommand)
+
+def takePhoto():
+
+        idCamera = xCamera()
+        idCamera.capture()
 
 if __name__ == "__main__":
 

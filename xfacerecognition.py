@@ -6,12 +6,12 @@ import sys
 
 class xFaceRecognition(object):
 
-    def __init__(self, imageinput="in.jpeg", imageoutput="out.jpeg"):
+    def __init__(self, imageinput="photo.jpeg", imageoutput="faces.jpeg"):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryoutput = self.directorycurrent + '/output/'
-        self.imageinput = self.directoryoutput + imageinput
+        self.directoryfiles = self.directorycurrent + '/files/'
+        self.imageinput = self.directoryfiles + imageinput
         self.cascPath = self.directorycurrent + "/configuration/haarcascade_frontalface_alt.xml"
-        self.imageoutput = self.directoryoutput + imageoutput
+        self.imageoutput = self.directoryfiles + imageoutput
 
     def detect(self):
         faceCascade = cv2.CascadeClassifier(self.cascPath)
@@ -32,7 +32,12 @@ class xFaceRecognition(object):
         cv2.imwrite(self.imageoutput, image)
         cv2.waitKey(0)
 
+def recognizeFaces():
+
+    idFaceRecognition = xFaceRecognition()
+    idFaceRecognition.detect()
+
 if __name__ == "__main__":
 
-    idFaceRecognition = xFaceRecognition(imageinput='in.jpeg', imageoutput='out.jpeg')
+    idFaceRecognition = xFaceRecognition()
     idFaceRecognition.detect()
