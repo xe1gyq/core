@@ -18,3 +18,4 @@ root@edison:~/myproject#
 ```sh
 root@edison:~/myproject# sh core/dependencies.sh
 ```
+
