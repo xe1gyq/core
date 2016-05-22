@@ -76,6 +76,9 @@ root@edison:~/myproject# nano core/configuration/voicerss.ak
 
 ```sh
 root@edison:~/myproject# nano core/configuration/voicerss.mk
+
+[Write Mashape MashapeKey]
+
 ```
 
 ```sh
