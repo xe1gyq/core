@@ -4,7 +4,7 @@
 root@edison:~# cd
 root@edison:~# mkdir myproject
 root@edison:~# cd myproject/
-root@edison:~/myproject# git clone https://github.com/xe1gyq/core.git                                
+root@edison:~/myproject# git clone https://github.com/xe1gyq/core.git
 Cloning into 'core'...
 remote: Counting objects: 1109, done.
 remote: Compressing objects: 100% (171/171), done.
@@ -14,3 +14,5 @@ Resolving deltas: 100% (605/605), done.
 Checking connectivity... done.
 root@edison:~/myproject# 
 ```
+
+
