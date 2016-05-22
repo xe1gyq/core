@@ -22,14 +22,7 @@ consumer_key =
 consumer_secret = 
 access_token = 
 access_token_secret = 
-
-# WolframAlpha
-#
-# Go to developer.wolframalpha.com/ and sign up
-# Get your App Id under My Apps > Get an AppID 
-[wolframalpha]
-appid = 
-    
+  
 # VoiceRss
 #
 # Go to www.voicerss.org and sign up
@@ -47,7 +40,14 @@ apikey =
 # Copy the generated Mashape Key
 [mashape]
 mashapekey = 
-    
+
+# WolframAlpha
+#
+# Go to developer.wolframalpha.com/ and sign up
+# Get your App Id under My Apps > Get an AppID 
+[wolframalpha]
+appid = 
+
 # Google
 #
 [google]
