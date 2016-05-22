@@ -4,7 +4,7 @@
 root@edison:~/myproject# nano main.py 
 ```
 
-```sh
+```python
 from core.xcamera import takePhoto
 from core.xfacerecognition import recognizeFaces
 
