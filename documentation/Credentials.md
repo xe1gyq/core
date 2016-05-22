@@ -82,8 +82,7 @@ root@edison:~/myproject# nano core/configuration/voicerss.mk
 ```
 
 ```sh
-
-    $ ls core/configuration/
-    credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
+root@edison:~/myproject# ls core/configuration/
+credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 ```
 
