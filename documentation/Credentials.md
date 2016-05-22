@@ -1,7 +1,7 @@
 # Credentials
 
 ```sh
-    $ nano core/configuration/credentials.config
+root@edison:~/myproject# nano core/configuration/credentials.config
 ```
 
 ```sh
