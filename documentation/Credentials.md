@@ -64,6 +64,11 @@ password =
 [telegram]
 token = 
 
+# Wit
+#
+[wit]
+accesstoken=
+
 # End of File
 ```
 
