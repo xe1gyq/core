@@ -6,4 +6,5 @@
    * [Setup](documentation/Setup.md)
    * [Credentials](documentation/Credentials.md)
    * [Classes](documentation/Classes.md)
+   * Project
 
