@@ -16,6 +16,9 @@ root@edison:~/myproject#
 ```
 
 ```sh
-root@edison:~/myproject# sh core/dependencies.sh
+root@edison:~/myproject# sh core/dependencies.shc
+...
+Successfully installed paho-mqtt wolframalpha matplotlib twython six numpy python-dateutil pytz cyclerb
+Cleaning up...
 ```
 
