@@ -22,18 +22,13 @@ consumer_key =
 consumer_secret = 
 access_token = 
 access_token_secret = 
-
-# WolframAlpha
-#
-# Go to developer.wolframalpha.com/ and sign up
-# Get your App Id under My Apps > Get an AppID 
-[wolframalpha]
-appid = 
-    
+  
 # VoiceRss
 #
 # Go to www.voicerss.org and sign up
 # Go to API -> Get API Key
+# 
+# apikey = voicerss.ak
 # 
 [voicerss]
 apikey = 
@@ -45,9 +40,19 @@ apikey =
 # Copy your VoiceRss API Key and paste under "URL PARAMETERS key QUERY AUTH" field
 # Fill out Form Encoded Parameters and Test EndPoint using Curl method
 # Copy the generated Mashape Key
+#
+# apikey = voicerss.mk
+# 
 [mashape]
 mashapekey = 
-    
+
+# WolframAlpha
+#
+# Go to developer.wolframalpha.com/ and sign up
+# Get your App Id under My Apps > Get an AppID 
+[wolframalpha]
+appid = 
+
 # Google
 #
 [google]
@@ -63,6 +68,11 @@ password =
 #
 [telegram]
 token = 
+
+# Wit
+#
+[wit]
+accesstoken=
 
 # End of File
 ```
