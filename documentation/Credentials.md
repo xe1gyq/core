@@ -68,11 +68,11 @@ token =
 ```
 
 ```sh
-    $ nano core/configuration/voicerss.ak
+nano core/configuration/voicerss.ak
 ```
 
 ```sh
-    $ nano core/configuration/voicerss.mk
+$ nano core/configuration/voicerss.mk
 ```
 
 ```sh
