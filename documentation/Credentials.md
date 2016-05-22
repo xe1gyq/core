@@ -69,6 +69,9 @@ token =
 
 ```sh
 root@edison:~/myproject# nano core/configuration/voicerss.ak
+
+[Write Voicerss ApiKey]
+
 ```
 
 ```sh
