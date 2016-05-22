@@ -63,8 +63,8 @@ password =
 #
 [telegram]
 token = 
-    
-    # End of File
+
+# End of File
 ```
 
 ```sh
