@@ -100,6 +100,25 @@ __Additional hardware required!__ Set a specific color in the display and show a
 __Additional hardware required!__ 
 
 ```sh
+root@edison:~# vi ~/.asoundrc
+```
+
+```sh
+pcm.!default {
+    type plug
+       slave {
+           pcm "hw:2,0"
+       }
+}
+ctl.!default {
+    type plug
+        slave {
+           pcm "hw:2,0"
+       }
+}
+```
+
+```sh
     $ python core/xspeechrecognition.py
 ```
 
