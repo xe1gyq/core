@@ -8,8 +8,8 @@ import time
 class xVoice(object):
 
     def __init__(self, voicefile="voice.wav"):
-        #self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.voicefile = voicefile
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.voicefile = self.directorycurrent + '/files/' + voicefile
         self.proc = None
 
     def filenameset(self, voicefile):
@@ -45,8 +45,9 @@ class xVoice(object):
 if __name__ == "__main__":
 
     idVoice = xVoice()
-    idVoice.record()
-    idVoice.play()
+
+    #idVoice.record()
+    #idVoice.play()
 
     pid = idVoice.recordstart()
     time.sleep(5)

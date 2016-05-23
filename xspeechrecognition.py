@@ -9,8 +9,9 @@ import speech_recognition as sr
 class xSpeechRecognition(object):
 
     def __init__(self, engine='google', wavfile='voice.wav'):
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
         self.engine = engine
-        self.wavfile = wavfile
+        self.wavfile = self.directorycurrent + '/files/' + wavfile
 
         self.r = sr.Recognizer()
         with sr.WavFile(self.wavfile) as self.source:
