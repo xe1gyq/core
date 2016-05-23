@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import ConfigParser
+import os
+
 from twython import Twython
 
 class xTwitter(object):
@@ -8,7 +10,8 @@ class xTwitter(object):
     def __init__(self):
 
         self.configuration = ConfigParser.ConfigParser()
-        self.configuration.read('configuration/credentials.config')
+        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
+        self.configuration.read(self.directorycurrent + '/configuration/credentials.config')
         self.consumer_key = self.configuration.get('twitter','consumer_key')
         self.consumer_secret = self.configuration.get('twitter','consumer_secret')
         self.access_token = self.configuration.get('twitter','access_token')

@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-import matplotlib.colors as colors
+#import matplotlib.colors as colors
 import pyupm_i2clcd as lcd
-from colour import Color
+#from colour import Color
 
 class xLcdRgb(object):
 
@@ -23,20 +23,23 @@ class xLcdRgb(object):
     def setCursor(self, x, y):
         self.lcdrgb.setCursor(x,y)
 
+    def setText(self, text):
+        self.lcdrgb.write(text)
+
+'''
     def setColor(self, color):
         color = Color(color)
         colordecimal = self.hexToRgb(colors.rgb2hex(color.rgb))
         self.lcdrgb.setColor(colordecimal[0], colordecimal[1], colordecimal[2])
-
-    def setText(self, text):
-        self.lcdrgb.write(text)
+'''
 
 if __name__ == "__main__":
 
     idLcdRgb = xLcdRgb()
     while True:
+        idLcdRgb.clear()
         idLcdRgb.setCursor(0,0)
         idLcdRgb.setText("Hello Lcd Rgb!") 
-        idLcdRgb.setColor("Red")
+        #idLcdRgb.setColor("Red")
 
 # End of Text
