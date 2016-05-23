@@ -73,31 +73,29 @@ __Additional hardware required!__ Set a specific color in the display and show a
     idMqtt.write("temp/random", "43")
 ```
 
-## xPlotLy
-
-> Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Plotly)
-
-[PlotLy Homepage](https://plot.ly/)
-
-
-```sh
-    $ python core/xplotly.py
-```
-
-```Python
-    from core.xplotly import xPlotLy
-    
-    xPlotly = xPlotLy("Core PlotLy Random")
-    counter = 0
-    while True:
-        xPlotly.graph(counter, random.random())
-        counter += 1
-        time.sleep(0.5)
-```
 
 ### xSpeechRecognition
 
 __Additional hardware required!__ 
+
+```sh
+root@edison:~# vi ~/.asoundrc
+```
+
+```sh
+pcm.!default {
+    type plug
+       slave {
+           pcm "hw:2,0"
+       }
+}
+ctl.!default {
+    type plug
+        slave {
+           pcm "hw:2,0"
+       }
+}
+```
 
 ```sh
     $ python core/xspeechrecognition.py
