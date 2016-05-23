@@ -24,7 +24,7 @@ class xSpeechRecognition(object):
         if self.engine == 'google':
             try:
                 from pprint import pprint
-                print("Google Speech Recognition results:")
+                print("Google Speech Recognition")
                 return self.r.recognize_google(self.audio, show_all=False)
             except sr.UnknownValueError:
                 print("Google Speech Recognition could not understand audio")
