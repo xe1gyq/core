@@ -9,7 +9,7 @@ apikey=`cat core/configuration/voicerss.ak`
 player=mpg123
 
 directoryRoot=`pwd`
-directoryOutput=$directoryRoot/output
+directoryOutput=$directoryRoot/core/files/
 
 test -d $directoryOutput || mkdir $directoryOutput
 

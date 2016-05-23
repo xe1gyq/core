@@ -13,5 +13,6 @@ def xtalk(language, message):
 if __name__ == "__main__":
 
     xtalk("en-us", "Hello World of Text To Speech via Voice RSS")
+    xtalk("es-mx", "Hola Mundo Infraestructura de Texto a Voz")
 
 # End Of File
