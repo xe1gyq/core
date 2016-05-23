@@ -3,8 +3,8 @@
 language=$1
 text=$2
 
-mashapekey=`cat configuration/voicerss.mk`
-apikey=`cat configuration/voicerss.ak`
+mashapekey=`cat core/configuration/voicerss.mk`
+apikey=`cat core/configuration/voicerss.ak`
 
 player=mpg123
 
