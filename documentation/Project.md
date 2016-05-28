@@ -16,4 +16,4 @@ takePhoto()
 recognizeFaces()
 ```
 
-## 
+## Talk How Many Faces Are
