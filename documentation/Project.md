@@ -1,6 +1,6 @@
 # Project
 
-## Camera Recognition
+## OpenCV Face Recognition
 
 ```sh
 root@edison:~# cd
