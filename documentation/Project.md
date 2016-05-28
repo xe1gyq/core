@@ -35,8 +35,8 @@ from core.xwolfram import askWolfram
 
 question="What is the capital of Mexico"
 answer = askWolfram(question)
-xtalk("en-us", question)
-xtalk("en-us", answer)
+say("english", question)
+say("english", answer)
 ```
 
 ## 0x03
