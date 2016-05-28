@@ -98,3 +98,4 @@ credentials.config  haarcascade_frontalface_alt.xml  voicerss.ak  voicerss.mk
 
 ```sh
 root@edison:~/myproject# export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
+```
