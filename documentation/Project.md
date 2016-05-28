@@ -1,6 +1,6 @@
 # Project
 
-## Camera Support
+## Camera Recognition
 
 ```sh
 root@edison:~# cd
