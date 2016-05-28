@@ -17,3 +17,16 @@ recognizeFaces()
 ```
 
 ## Talk How Many Faces Are
+
+
+```sh
+root@edison:~/myproject# nano main.py 
+```
+
+```python
+from core.xcamera import takePhoto
+from core.xfacerecognition import recognizeFaces
+
+takePhoto()
+recognizeFaces()
+```
