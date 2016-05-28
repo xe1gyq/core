@@ -32,6 +32,11 @@ class xSpeechRecognition(object):
                 print("Could not request results from Google Speech Recognition service; {0}".format(e))
         return None
 
+def recognizeSpeech():
+
+    speechrecognition = xSpeechRecognition()
+    return speechrecognition.recognize()
+
 if __name__ == "__main__":
 
     xSpeechRecognition = xSpeechRecognition()

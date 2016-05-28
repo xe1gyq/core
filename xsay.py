@@ -3,7 +3,12 @@
 import os
 import subprocess
 
-def xtalk(language, message):
+def say(language, message):
+
+    if language is "english":
+         language = "en-us"
+    if language is "espanol":
+         language = "es-mx"
 
     directorycurrent = os.path.dirname(os.path.realpath(__file__))
     voicerss = directorycurrent + '/voicerss.sh'
@@ -12,7 +17,7 @@ def xtalk(language, message):
 
 if __name__ == "__main__":
 
-    xtalk("en-us", "Hello World of Text To Speech via Voice RSS")
-    xtalk("es-mx", "Hola Mundo Infraestructura de Texto a Voz")
+    say("english", "Hello World of Text To Speech via Voice RSS")
+    say("espanol", "Hola Mundo Infraestructura de Texto a Voz")
 
 # End Of File

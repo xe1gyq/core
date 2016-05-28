@@ -42,6 +42,16 @@ class xVoice(object):
     def erase(self):
         status, output = commands.getstatusoutput("rm " + self.voicefile)
 
+def recordAudio():
+    idVoice = xVoice()
+    pid = idVoice.recordstart()
+    time.sleep(5)
+    idVoice.recordstop(pid)
+
+def playAudio():
+    idVoice = xVoice()
+    idVoice.play()
+
 if __name__ == "__main__":
 
     idVoice = xVoice()

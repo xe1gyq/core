@@ -25,6 +25,10 @@ class xWolfram(object):
         except StopIteration:
             return 'There was no response!'
 
+def askWolfram(question):
+    idWolfram = xWolfram()
+    return idWolfram.question(question)
+
 if __name__ == "__main__":
 
     idWolfram = xWolfram()

@@ -31,6 +31,7 @@ class xFaceRecognition(object):
             cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
         cv2.imwrite(self.imageoutput, image)
         cv2.waitKey(0)
+        return len(faces)
 
 def recognizeFaces():
 
