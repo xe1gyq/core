@@ -5,6 +5,9 @@
 ```sh
 root@edison:~# cd
 root@edison:~# cd myproject
+```
+
+```sh
 root@edison:~/myproject# nano main.py 
 ```
 
