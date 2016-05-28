@@ -38,3 +38,19 @@ answer = askWolfram(question)
 xtalk("en-us", question)
 xtalk("en-us", answer)
 ```
+
+## 0x03
+
+```python
+#!/usr/bin/python
+
+from core.xspeechrecognition import recognizeSpeech
+from core.xtalk import xtalk
+from core.xvoice import recordAudio
+from core.xvoice import playAudio
+
+recordAudio()                                                                   
+playAudio()                                                                     
+print recognizeSpeech()
+xtalk("en-us", text)
+```
