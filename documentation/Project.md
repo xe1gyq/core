@@ -54,3 +54,22 @@ playAudio()
 print recognizeSpeech()
 xtalk("en-us", text)
 ```
+
+## 0x04
+
+```python
+#!/usr/bin/python
+
+from core.xspeechrecognition import recognizeSpeech
+from core.xsay import say
+from core.xvoice import recordAudio
+from core.xvoice import playAudio
+from core.xwolfram import askWolfram
+
+recordAudio()
+playAudio()
+question = recognizeSpeech()                                                    
+say("english", question)                                                        
+answer = askWolfram(question)                                                   
+say("english", answer) 
+```
