@@ -15,3 +15,5 @@ from core.xfacerecognition import recognizeFaces
 takePhoto()
 recognizeFaces()
 ```
+
+## 
