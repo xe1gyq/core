@@ -19,9 +19,10 @@ class xVoice(object):
         return self.voicefile
 
     def recordstart(self):
-        args = ['arecord', '-t', 'wav', '-D', 'default', '-f', 'S16_LE', '-r', '48000', self.voicefile]
+        #args = ['arecord', '-t', 'wav', '-D', 'default', '-f', 'S16_LE', '-r', '48000', self.voicefile]
         #args = ['arecord', '-D', 'default', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.voicefile]
         #args = ['arecord', '-t', 'wav', '-f', 'S16_LE', '-r', '48000', self.filename]
+        args = ['arecord', '-d', '5', self.voicefile]
         proc = subprocess.Popen(args)
         print "PID:", proc.pid
         return proc
@@ -31,12 +32,13 @@ class xVoice(object):
 
     def record(self):
         time.sleep(1)
-        proc = self.recordstart()
+        args = ['arecord', '-d', '5', self.voicefile]
+        proc = subprocess.Popen(args)
         time.sleep(5)
-        self.recordstop(proc)
 
     def play(self):
-        status, output = commands.getstatusoutput("aplay -D default " + self.voicefile)
+        #status, output = commands.getstatusoutput("aplay -D default " + self.voicefile)
+        status, output = commands.getstatusoutput("aplay " + self.voicefile)
         print output
 
     def erase(self):
@@ -44,9 +46,7 @@ class xVoice(object):
 
 def recordAudio():
     idVoice = xVoice()
-    pid = idVoice.recordstart()
-    time.sleep(5)
-    idVoice.recordstop(pid)
+    idVoice.record()
 
 def playAudio():
     idVoice = xVoice()
@@ -56,12 +56,12 @@ if __name__ == "__main__":
 
     idVoice = xVoice()
 
-    #idVoice.record()
-    #idVoice.play()
-
-    pid = idVoice.recordstart()
-    time.sleep(5)
-    idVoice.recordstop(pid)
+    idVoice.record()
     idVoice.play()
+
+    #pid = idVoice.recordstart()
+    #time.sleep(5)
+    #idVoice.recordstop(pid)
+    #idVoice.play()
 
 # End of File
