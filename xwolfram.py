@@ -27,7 +27,8 @@ class xWolfram(object):
 
 def askWolfram(question):
     idWolfram = xWolfram()
-    return idWolfram.question(question)
+    answer = idWolfram.question(question)
+    return answer
 
 if __name__ == "__main__":
 
