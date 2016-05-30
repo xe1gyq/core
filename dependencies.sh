@@ -5,4 +5,5 @@ opkg install python-opencv python-dev fswebcam alsa-utils mpg123 espeak libxft-d
 opkg install libjack
 opkg install --nodeps jack-dev 
 opkg install libportaudio-dev
+opkg install flac-dev
 pip install wit SpeechRecogntion paho-mqtt wolframalpha matplotlib twython pyaudio --target /home/root/
