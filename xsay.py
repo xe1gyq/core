@@ -3,7 +3,7 @@
 import os
 import subprocess
 
-def say(language, message):
+def isay(language, message):
 
     if language is "english":
          language = "en-us"
@@ -19,7 +19,7 @@ def say(language, message):
 
 if __name__ == "__main__":
 
-    say("english", "Hello World of Text To Speech via Voice RSS")
-    say("espanol", "Hola Mundo de Texto a Voz")
+    isay("english", "Hello World of Text To Speech via Voice RSS")
+    isay("espanol", "Hola Mundo de Texto a Voz")
 
 # End Of File

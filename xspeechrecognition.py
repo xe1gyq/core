@@ -6,6 +6,9 @@ import os
 import re
 import speech_recognition as sr
 
+from core.xvoice import recordAudio
+from core.xvoice import playAudio
+
 class xSpeechRecognition(object):
 
     def __init__(self, engine='google', wavfile='voice.wav'):
@@ -34,6 +37,8 @@ class xSpeechRecognition(object):
 
 def recognizeSpeech():
 
+    recordAudio()
+    playAudio()
     speechrecognition = xSpeechRecognition()
     return speechrecognition.recognize()
 
