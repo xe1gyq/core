@@ -6,7 +6,7 @@
    * [Setup](documentation/Setup.md)
    * [Credentials](documentation/Credentials.md)
    * [Classes](documentation/Classes.md)
-* [Sandbox](documentation/Sandbox.md)
 * [Project](documentation/Project.md)
+* [Sandbox](documentation/Sandbox.md)
 * Temp
 
