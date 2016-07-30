@@ -69,7 +69,7 @@ from core.xwolfram import askWolfram
 recordAudio()
 playAudio()
 question = recognizeSpeech()                                                    
-say("english", question)                                                        
+say(question)                                                        
 answer = askWolfram(question)                                                   
-say("english", answer) 
+say(answer) 
 ```
