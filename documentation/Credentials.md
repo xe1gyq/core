@@ -35,16 +35,16 @@
    -  Search: VoiceRss
    -  https://market.mashape.com/voicerss/text-to-speech-1
 
-## ENDPOINTS
+## Test: Endpoints
 
 Convert text to speech via HTTP POST
 > Converts textual content to audio content
 
-1. URL PARAMETERS
+1. URL Parameters
   - key: -------------------
-2. REQUEST HEADERS
+2. Request Headers
   - X-Mashape-Key: Default Application
-3. TEST ENDPOINT ...
+3. Test Endpoint ...
 
 ```sh
 root@edison:~/myproject# nano core/configuration/credentials.config
