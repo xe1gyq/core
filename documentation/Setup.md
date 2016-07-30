@@ -24,7 +24,7 @@ root@edison:~/myproject#
 ```
 
 ```sh
-root@edison:~/giekis# cat ~/.asoundrc
+root@edison:~/myproject# cat ~/.asoundrc
 pcm.!default {
         type asym
         playback.pcm {
