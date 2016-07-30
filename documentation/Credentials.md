@@ -17,7 +17,7 @@
 3. Generate New API Key
    - API Key: -------------------
    - Current Plan: Free
-   - Update
+   - Update ...
 
 # Mashape
 
@@ -33,7 +33,16 @@
    -  Search: VoiceRss
    -  https://market.mashape.com/voicerss/text-to-speech-1
 
+## ENDPOINTS
 
+Convert text to speech via HTTP POST
+> Converts textual content to audio content
+
+1. URL PARAMETERS
+  - key: -------------------
+2. REQUEST HEADERS
+  - X-Mashape-Key: Default Application
+3. TEST ENDPOINT ...
 
 ```sh
 root@edison:~/myproject# nano core/configuration/credentials.config
