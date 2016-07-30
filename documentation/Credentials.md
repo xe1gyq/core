@@ -70,7 +70,7 @@ password =
 token = 
 
 # Wit
-#
+# 
 [wit]
 accesstoken=
 
