@@ -35,7 +35,7 @@
    -  Search: VoiceRss
    -  https://market.mashape.com/voicerss/text-to-speech-1
 
-## Test: Endpoints
+## Test Endpoints
 
 Convert text to speech via HTTP POST
 > Converts textual content to audio content
