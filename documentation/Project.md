@@ -8,7 +8,7 @@ root@edison:~# cd myproject
 ## 0x01
 
 ```sh
-root@edison:~/myproject# nano main.py 
+root@edison:~/myproject# nano main.py
 ```
 
 ```python
