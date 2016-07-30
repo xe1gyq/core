@@ -1,5 +1,39 @@
 # Credentials
 
+# Mashape
+
+1. [Sign Up / Register](https://market.mashape.com/register
+   - Username
+   - Email
+   - Password
+   - Create Account
+3. [Mashape Dashboard](https://market.mashape.com/dashboard)
+4. Add New Application. Mashape allows you to consume and monitor APIs in your Application, giving you a one stop shop for monitoring, payments, and management.
+   -  Application Name: NuupXe
+5. Add Another API: Explore Market Place
+   -  Search: VoiceRss
+   -  https://market.mashape.com/voicerss/text-to-speech-1
+
+
+# VoiceRss
+
+1. [Registration](http://www.voicerss.org/registration.aspx)
+   - First Name: 
+   - Last Name: 
+   - Company Name:
+   - Email: 
+   - Password:
+   - Confirm Password:
+   - Site URL:
+   - Code Protection: 
+   - Discount Coupon: 
+   - Register ...
+2. [Personel](http://www.voicerss.org/personel)
+3. Generate New API Key
+   - API Key: -------------------
+   - Current Plan: Free
+   - Update
+
 ```sh
 root@edison:~/myproject# nano core/configuration/credentials.config
 ```
